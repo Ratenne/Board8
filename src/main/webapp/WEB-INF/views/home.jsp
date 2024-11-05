@@ -27,6 +27,10 @@
 	<div><a href="/Board/WriteForm?menu_id=MENU01">게시물 추가</a></div>
 	<div>&nbsp;</div>
 	
+	<div><a href="/Pds/List?nowpage=1&menu_id=MENU01">자료실 목록</a></div>
+	<div><a href="/Pds/WrtieForm?nowpage=1&menu_id=MENU01">자료실 등록</a></div>
+	<div>&nbsp;</div>
+	
 	<div><a href="/BoardPaging/List?nowpage=1&menu_id=MENU01">게시물 목록(페이징)</a></div>
 	<div><a href="/BoardPaging/WriteForm?nowpage=1&menu_id=MENU01">게시물 추가(페이징)</a></div>
 	<div>&nbsp;</div>
