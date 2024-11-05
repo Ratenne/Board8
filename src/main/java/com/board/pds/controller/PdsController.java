@@ -21,7 +21,7 @@ public class PdsController {
 	
 	//"/Pds/List?nowpage=1&menu_id=MENU01"
 	@RequestMapping("/List")
-	public ModelAndView list( @RequestParam HashMap<String, Object> map ) {
+	public ModelAndView list( @RequestParam HashMap<String, Object> map ) { //리퀘파람은 맵을 페이로드 파라미터 값들과 매핑시키기위함임.
 		//전부 맵으로 받으면 모든게 맵으로 반복되면서 새로운 데이터가 추가되더라도 인자처리에 유용하게 된다.
 		
 		//자료실 목록 준비
